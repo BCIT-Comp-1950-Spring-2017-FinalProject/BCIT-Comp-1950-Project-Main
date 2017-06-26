@@ -83,12 +83,12 @@ li {
 }
 
 .row {
-    width: 80%;
+    width: 100%;
     padding: 0 50px 0 50px;
 }
 
 .first-row{
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .top-space-md {
@@ -101,6 +101,12 @@ li {
 
 .col-66 {
     width: 66%;
+}
+
+.nav-arrow-down {
+    width: 90%;
+    text-align: center;
+    margin: 100px 0 100px 0;
 }
 
 .profile-main {
