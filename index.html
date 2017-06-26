@@ -1,16 +1,122 @@
-<!--COMP 1950 - Final Project
-Godfrey Kwan, Sam Chung
+<!--
+    COMP1950
+    Instructor: Jeffrey Park
+    DTC Thur 6-9PM
+
+    Created by:
+    Bruna Vieira
+    Godfrey Kwan
+    Sam Chung
 -->
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-    <body>
-    
-    </body>
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/intro/jquery.pagepiling.min.css" />
+    <link href="css/intro/style.css" rel="stylesheet">
+
+    <!-- JavaScript-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/intro/jquery.pagepiling.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <ul id="menu">
+            <li data-menuanchor="homepage"><a href="#homepage">Home</a></li>
+            <li data-menuanchor="team-intro"><a href="#team-intro">Meet the Team</a></li>
+            <li data-menuanchor="rotate-page"><a href="#rotate-page">Surprise!</a></li>
+            <li data-menuanchor="text-page"><a href="#text-page">Text</a></li>
+        </ul>
+        <div id="pagepiling">
+            <div class="container">
+                <div id="home" class="section">
+                    <div class="row first-row">
+
+                        <header>
+                            <h1>Proposal for COMP 1950 Website Revamp</h1>
+                        </header>
+                    </div>
+                    <div class="row">
+                        <h3>Bruna Vieira, Godfrey Kwan, Sam Chung</h3>
+                    </div>
+
+                </div>
+                <div id="team-intro" class="section pp-scrollable">
+                    <div class="row first-row">
+                        <h2>Meet the team!</h2>
+                    </div>
+                    <div id="team-profile">
+                        <div class="row">
+                            <div class="col-33">
+                                <h3 class="profile-header">Bruna Vieira</h3>
+                                <h4 class="profile-title">Front-End Engineer / UI/UX Designer</h4>
+                                <img src="http://via.placeholder.com/200x200" alt="">
+                            </div>
+                            <div class="col-66 profile-main">
+                                <h4>Specializations</h4>
+                                <p>Talk about specialization</p>
+                                <h4>Contributions</h4>
+                                <p>Talk about contributions</p>
+                            </div>
+                        </div>
+                        <div class="row top-space-md">
+                            <div class="col-33">
+                                <h3 class="profile-header">Godfrey Kwan</h3>
+                                <h4 class="profile-title">Full Stack Engineer</h4>
+                                <img src="http://via.placeholder.com/200x200" alt="">
+                            </div>
+                            <div class="col-66 profile-main">
+                                <h4>Specializations</h4>
+                                <p>Talk about specialization</p>
+                                <h4>Contributions</h4>
+                                <p>Talk about contributions</p>
+                            </div>
+                        </div>
+                        <div class="row top-space-md">
+                            <div class="col-33">
+                                <h3 class="profile-header">Sam Chung</h3>
+                                <h4 class="profile-title">Front-End Engineer</h4>
+                                <img src="http://via.placeholder.com/200x200" alt="">
+                            </div>
+                            <div class="col-66 profile-main">
+                                <h4>Specializations</h4>
+                                <p>Talk about specialization</p>
+                                <h4>Contributions</h4>
+                                <p>Talk about contributions</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div id="rotate-page" class="section">
+                    <div class="row first-row">
+
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="row first-row">
+                        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="js/intro/app.js"></script>
+
+</body>
+
 </html>
