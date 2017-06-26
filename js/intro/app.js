@@ -17,21 +17,21 @@ $(document).ready(function() {
             'homepage', 
             'team-intro', 
             'rationale-intro', 
-            'rationale-main-1',
-            'rationale-main-2', 
-            'rationale-main-3', 
-            'rationale-main-4',
-            'rationale-main-5', 
+            'deliverable-main-1',
+            'deliverable-main-2', 
+            'deliverable-main-3', 
+            'deliverable-main-4',
+            'deliverable-main-5', 
             'link-to-proto'],
         sectionsColor: [
             'whitesmoke', // home
             'whitesmoke', // team-intro
             'whitesmoke', // rationale-intro
-            'whitesmoke', // rationale-main-1
-            'whitesmoke', // rationale-main-2
-            'whitesmoke', // rationale-main-3
-            'whitesmoke', // rationale-main-4
-            'whitesmoke', // rationale-main-5
+            'whitesmoke', // deliverable-main-1
+            'whitesmoke', // deliverable-main-2
+            'whitesmoke', // deliverable-main-3
+            'whitesmoke', // deliverable-main-4
+            'whitesmoke', // deliverable-main-5
             'whitesmoke'  // link-to-proto
             ], 
         verticalCentered: false
