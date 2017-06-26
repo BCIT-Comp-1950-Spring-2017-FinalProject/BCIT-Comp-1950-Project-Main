@@ -67,7 +67,18 @@ header {
     display: inline-block;
 }
 
+#deliverables-list {
+    list-style: none;
+}
 
+#deliverables-list li {
+    display: inline-block;
+    width: 100%;
+}
+
+#deliverables-list i {
+    color: green;
+}
 
 #rotate-page img {
     max-width: 80%;
@@ -88,7 +99,7 @@ li {
 }
 
 .first-row{
-    margin-top: 100px;
+    margin-top: 130px;
 }
 
 .top-space-md {
@@ -119,6 +130,11 @@ li {
 
 .profile-title {
     margin-top: 2px;
+}
+
+.deliverable-text {
+    display: inline-block;
+    font-size: 1.3em;
 }
 
 

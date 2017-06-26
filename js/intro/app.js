@@ -17,10 +17,11 @@ $(document).ready(function() {
             'homepage', 
             'team-intro', 
             'rationale-intro', 
-            , // empty anchors because these aren't visible in main nav
-            , 
-            , 
-            , 
+            'rationale-main-1',
+            'rationale-main-2', 
+            'rationale-main-3', 
+            'rationale-main-4',
+            'rationale-main-5', 
             'link-to-proto'],
         sectionsColor: [
             'whitesmoke', // home
@@ -30,6 +31,7 @@ $(document).ready(function() {
             'whitesmoke', // rationale-main-2
             'whitesmoke', // rationale-main-3
             'whitesmoke', // rationale-main-4
+            'whitesmoke', // rationale-main-5
             'whitesmoke'  // link-to-proto
             ], 
         verticalCentered: false
