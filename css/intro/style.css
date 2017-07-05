@@ -85,8 +85,18 @@ header {
     animation: rotate 2s linear infinite;
 }
 
+#website-preview,
+#website-preview2 {
+ margin: 0 auto;
+ text-align: center; 
+}
+
 li {
     text-align: -webkit-match-parent;
+}
+
+figcaption {
+    text-align: center;
 }
 
 .container {
@@ -190,6 +200,10 @@ li {
 
 .img-container {
     margin: 0 auto;
+}
+
+.grey {
+    color: #4f555e;
 }
 
 a:link,

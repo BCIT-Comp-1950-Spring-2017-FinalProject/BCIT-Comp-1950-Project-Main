@@ -33,10 +33,11 @@
 
 <body>
     <main>
+        <!-- Main nav -->
         <ul id="menu">
             <li data-menuanchor="homepage"><a href="#homepage">Home</a></li>
             <li data-menuanchor="team-intro"><a href="#team-intro">Team</a></li>
-            <li data-menuanchor="rationale-intro"><a href="#rationale-intro">Deliverables/Rationale</a></li>
+            <li data-menuanchor="rationale-intro"><a href="#rationale-intro">Deliverables</a></li>
             <li data-menuanchor="deliverable-main-1"><a href="#deliverable-main-1">D:1</a></li>
             <li data-menuanchor="deliverable-main-2"><a href="#deliverable-main-2">D:2</a></li>
             <li data-menuanchor="deliverable-main-3"><a href="#deliverable-main-3">D:3</a></li>
@@ -44,6 +45,7 @@
             <li data-menuanchor="deliverable-main-5"><a href="#deliverable-main-5">D:5</a></li>
             <li data-menuanchor="link-to-proto"><a href="#link-to-proto">Proto</a></li>
         </ul>
+        <!-- Start of content area for jQuery pagepiling plugin -->
         <div id="pagepiling">
             <div class="container">
                 <div id="home" class="section pp-scrollable">
@@ -56,16 +58,24 @@
                     <div class="row">
                         <h3>Bruna Vieira, Godfrey Kwan, Sam Chung</h3>
                     </div>
+                    <div class="row">
+                        <div id="website-preview" class="col-88">
+                            <img class="img-responsive" src="http://via.placeholder.com/1000x600" alt="website preview">
+                        </div>
+                    </div>
                     <div class="row nav-arrow-down">
                         <a href="#team-intro"><i class="fa fa-arrow-circle-down fa-5x" aria-hidden="true"></i></a>
                     </div>
 
                 </div>
+
+                <!-- Team Intro -->
                 <div id="team-intro" class="section pp-scrollable">
                     <div class="row first-row">
                         <h2>Glad to meet you! A bit about ourselves:</h2>
                     </div>
                     <div id="team-profile">
+                        <!-- Profile 1-->
                         <div class="row">
                             <div class="col-33">
                                 <h3 class="profile-header">Bruna Vieira</h3>
@@ -76,13 +86,19 @@
                                     <img class="profile-image img-responsive" src="http://via.placeholder.com/300x300" alt="">
                                 </div>
                                 <div class="col-66 profile-main">
-                                    <h4>Specializations</h4>
-                                    <p>Talk about specialization</p>
-                                    <h4>Contributions</h4>
-                                    <p>Talk about contributions</p>
+                                    <h4 class="grey">Specializations</h4>
+                                    <p>HTML CSS design/layout, front-end frameworks (e.g. Bootstrap), UX/UI design.</p>
+                                    <h4 class="grey">Contributions</h4>
+                                    <ul>
+                                        <li>Lead coding of custom branding for proto-site</li>
+                                        <li>Primary content editor for proto-site</li>
+                                        <li>UI/UX brainstorming and implementation</li>
+                                        <li>Custom stylesheets for projector, printer</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
+                        <!-- Profile 2 -->
                         <div class="row top-space-md">
                             <div class="col-33">
                                 <h3 class="profile-header">Godfrey Kwan</h3>
@@ -90,16 +106,22 @@
                             </div>
                             <div class="row">
                                 <div class="col-24 img-container">
-                                    <img class="profile-image img-responsive" src="http://via.placeholder.com/200x200" alt="">
+                                    <img class="profile-image img-responsive" src="http://via.placeholder.com/300x300" alt="">
                                 </div>
                                 <div class="col-66 profile-main">
-                                    <h4>Specializations</h4>
-                                    <p>Talk about specialization</p>
-                                    <h4>Contributions</h4>
-                                    <p>Talk about contributions</p>
+                                    <h4 class="grey">Specializations</h4>
+                                    <p>Full stack frameworks, HTML/CSS design/layout, server-side scripting.</p>
+                                    <h4 class="grey">Contributions</h4>
+                                    <ul>
+                                        <li>Initial designing and coding of layout and responsive design of proto-site </li>
+                                        <li>Architect optimization of content for student study flow</li>
+                                        <li>Major interactive JavaScript, including accordions and custom stylesheet toggle</li>
+                                        <li>Primary designer for online quiz form</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
+                        <!-- Profile 3 -->
                         <div class="row top-space-md">
                             <div class="col-33">
                                 <h3 class="profile-header">Sam Chung</h3>
@@ -107,13 +129,18 @@
                             </div>
                             <div class="row">
                                 <div class="col-24 img-container">
-                                    <img class="profile-image img-responsive" src="http://via.placeholder.com/200x200" alt="">
+                                    <img class="profile-image img-responsive" src="http://via.placeholder.com/300x300" alt="">
                                 </div>
                                 <div class="col-66 profile-main">
-                                    <h4>Specializations</h4>
+                                    <h4 class="grey">Specializations</h4>
                                     <p>Talk about specialization</p>
-                                    <h4>Contributions</h4>
+                                    <h4 class="grey">Contributions</h4>
                                     <p>Talk about contributions</p>
+                                    <ul>
+                                        <li>Primary designing and coding of proposal site</li>
+                                        <li>Secondary content editor</li>
+                                        <li>Organize team logistics for collaboration and final project submission</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -122,6 +149,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- Rationale intro sections-->
                 <div id="rationale-intro" class="section pp-scrollable">
                     <div class="row first-row">
                         <h2>Deliverables and Rationale</h2>
@@ -129,23 +157,33 @@
                         <ul id="deliverables-list">
                             <li>
                                 <i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i>
-                                <span><h4 class="deliverable-text">Deliverable 1:</h4></span>
+                                <span><h4 class="deliverable-text">Deliverable 1: 
+                                    <span class="grey">A modern website that supports devices of all sizes.</span></h4>
+                                </span>
                             </li>
                             <li>
                                 <i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i>
-                                <span><h4 class="deliverable-text">Deliverable 2:</h4></span>
+                                <span><h4 class="deliverable-text">Deliverable 2: 
+                                    <span class="grey">Reorganize and prioritize content according to students' study flows.</span></h4>
+                                </span>
                             </li>
                             <li>
                                 <i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i>
-                                <span><h4 class="deliverable-text">Deliverable 3:</h4></span>
+                                <span><h4 class="deliverable-text">Deliverable 3: 
+                                    <span class="grey">Beautiful, clean and custom branding on top of a robust website framework.</span></h4>
+                                </span>
                             </li>
                             <li>
                                 <i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i>
-                                <span><h4 class="deliverable-text">Deliverable 4:</h4></span>
+                                <span><h4 class="deliverable-text">Deliverable 4: 
+                                    <span class="grey">Optimize content for in-class instructional settings.</span></h4>
+                                </span>
                             </li>
                             <li>
                                 <i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i>
-                                <span><h4 class="deliverable-text">Deliverable 5:</h4></span>
+                                <span><h4 class="deliverable-text">Deliverable 5: 
+                                    <span class="grey">Reimagine analog/paper content for the digital medium.</span></h4>
+                                </span>
                             </li>
                         </ul>
                     </div>
@@ -153,157 +191,169 @@
                         <a href="#deliverable-main-1"><i class="fa fa-arrow-circle-down fa-5x" aria-hidden="true"></i></a>
                     </div>
                 </div>
+                <!-- Deliverable 1 -->
                 <div id="deliverable-main-1" class="section pp-scrollable">
                     <div class="row first-row">
                         <span class="green"><i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i></span>
-                        <h2 class="deliverable-text">Deliverable 1: </h2>
+                        <h2 class="deliverable-text">Deliverable 1: <span class="grey">A modern website that supports devices of all sizes.</h2>
                     </div>
                     <div class="row">
                         <div class="col-98">
-                        <h3>Rationale</h3>
-
+                            <h3>Rationale</h3>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-48 inline-block rationale-desc">
                             <p class="rationale-desc">
-                                <p>We did something awesome that solved 100% of your problems. This is because we're awesome.
-                                    Especially if we're doing this in the middle of the summertime...We did something awesome
-                                    that solved 100% of your problems. This is because we're awesome. Especially if we're
-                                    doing this in the middle of the summertime...</p>
+                                <p>Today's multi-device world requires that modern website support a myriad of devices with different screen sizes and form factors.</p>
+                                <p>And with students being busier than ever, they should be able to study wherever and whenever they want, whether it be on their laptop at home or on their mobile device while commuting to school.</p>
                                 <p>
-                                    We used these tools to implement some features...
+                                    The new, modern website will feature:
                                     <ul>
-                                        <li>Feature/Tools 1</li>
-                                        <li>Feature/Tools 2</li>
-                                        <li>Feature/Tools 3</li>
+                                        <li>Responsive layouts for mobile, laptop and desktop screen sizes.</li>
+                                        <li>Content optimized for smaller devices, including navigation and lecture content.</li>
                                     </ul>
                                 </p>
-                                <p>We did something awesome that solved 100% of your problems. This is because we're awesome.
-                                    Especially if we're doing this in the middle of the summertime...</p>
-                                <p>
-                            </p>
                         </div>
                         <div class="col-48 inline-block img-container">
+                            <figure>
                             <img class="img-responsive" src="http://via.placeholder.com/500x300" alt="">
+                            <figcaption><small>Content optimized for mobile devices.</small></figcaption>
+                            </figure>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-98 rationale-desc">
-                            <p>We did something awesome that solved 100% of your problems. This is because we're awesome. Especially
-                                if we're doing this in the middle of the summertime...We did something awesome that solved
-                                100% of your problems. This is because we're awesome. Especially if we're doing this in the
-                                middle of the summertime</p>
-                        </div>
                         <div class="col-98 img-container">
+                            <figure>
                             <img class="img-responsive" src="http://via.placeholder.com/1200x300" alt="">
+                            <figcaption><small>Content optimized for laptop/desktop screens.</small></figcaption>
+                            </figure>
                         </div>
                     </div>
                     <div class="row nav-arrow-down">
                         <a href="#deliverable-main-2"><i class="fa fa-arrow-circle-down fa-5x" aria-hidden="true"></i></a>
                     </div>
                 </div>
+                <!-- Deliverable 2 -->
                 <div id="deliverable-main-2" class="section pp-scrollable">
                     <div class="row first-row">
                         <span class="green"><i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i></span>
-                        <h2 class="deliverable-text">Deliverable 2: </h2>
+                            <h2 class="deliverable-text">Deliverable 2: <span class="grey">Reorganize and prioritize content according to students' study flows.</span></h2>
                     </div>
                     <div class="row">
                         <div class="col-98">
-                        <h3>Rationale</h3>
-
+                            <h3>Rationale</h3>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-48 inline-block rationale-desc">
+                        <div class="col-98 inline-block rationale-desc">
                             <p class="rationale-desc">
-                                <p>We did something awesome that solved 100% of your problems. This is because we're awesome.
-                                    Especially if we're doing this in the middle of the summertime...We did something awesome
-                                    that solved 100% of your problems. This is because we're awesome. Especially if we're
-                                    doing this in the middle of the summertime...</p>
-                                <p>
-                                    We used these tools to implement some features...
-                                    <ul>
-                                        <li>Feature/Tools 1</li>
-                                        <li>Feature/Tools 2</li>
-                                        <li>Feature/Tools 3</li>
-                                    </ul>
+                                <p>We thought long and hard about how students will actually access and consume the content
+                                    on the website.</p>
+                                <p>After lots of brainstorming, we did a dramatic reimagining of how content is organized and
+                                    delivered:
                                 </p>
-                                <p>We did something awesome that solved 100% of your problems. This is because we're awesome.
-                                    Especially if we're doing this in the middle of the summertime...</p>
-                                <p>
+                                <ul>
+                                    <li>The primary organizing principle is around "content groupings" such as homework, lectures,
+                                        labs, etc.</li>
+                                    <li>We've emphasized appropriate "chunking" of content, by enabling hiding/unhiding content.</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-98 inline-block rationale-desc">
+                            <p>We think that when students visit the website, they initially look for a particular type of content,
+                                whether it be lecture notes, homework, labs, or quizzes.</p>
+                            <p>So, we've grouped content according to "content groups." These "content groups" will be among
+                                the first things the student sees when visiting the main website:</p>
+                        </div>
+                        <div class="col-98 img-container">
+                            <figure>
+                                <img class="img-responsive" src="http://via.placeholder.com/1200x300" alt="">
+                                <figcaption><small>Readily accessible "content groups"</small></figcaption>
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-48 inline-block rationale-desc">
+                            <p>We've also emphasized the "chunking" of content, so that students can focus on a particular batch
+                                of content, one at a time. We think this will be a boon to students' ability to focus and
+                                get a deep understanding of the course material.</p>
+                            <p>We achieved this through the use of accordians that will hide/unhide data as the student sees
+                                fit.
                             </p>
                         </div>
                         <div class="col-48 inline-block img-container">
-                            <img class="img-responsive" src="http://via.placeholder.com/500x300" alt="">
+                            <figure>
+                                <img class="img-responsive" src="http://via.placeholder.com/500x300" alt="">
+                                <figcaption><small>Content in "chunks" through the use of accordians.</small></figcaption>
+                            </figure>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-98 rationale-desc">
-                            <p>We did something awesome that solved 100% of your problems. This is because we're awesome. Especially
-                                if we're doing this in the middle of the summertime...We did something awesome that solved
-                                100% of your problems. This is because we're awesome. Especially if we're doing this in the
-                                middle of the summertime</p>
-                        </div>
-                        <div class="col-98 img-container">
-                            <img class="img-responsive" src="http://via.placeholder.com/1200x300" alt="">
-                        </div>
-                    </div>
+
                     <div class="row nav-arrow-down">
                         <a href="#deliverable-main-3"><i class="fa fa-arrow-circle-down fa-5x" aria-hidden="true"></i></a>
                     </div>
                 </div>
+                <!-- Deliverable 3 -->
                 <div id="deliverable-main-3" class="section pp-scrollable">
                     <div class="row first-row">
                         <span class="green"><i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i></span>
-                        <h2 class="deliverable-text">Deliverable 3: </h2>
+                        <h2 class="deliverable-text">Deliverable 3: <span class="grey">Beautiful, clean and custom branding on top of a robust website framework.</span></h2>
                     </div>
                     <div class="row">
                         <h3>Rationale</h3>
                     </div>
                     <div class="row">
-                        <div class="col-48 inline-block rationale-desc">
+                        <div class="col-98 inline-block rationale-desc">
                             <p class="rationale-desc">
-                                <p>We did something awesome that solved 100% of your problems. This is because we're awesome.
-                                    Especially if we're doing this in the middle of the summertime...We did something awesome
-                                    that solved 100% of your problems. This is because we're awesome. Especially if we're
-                                    doing this in the middle of the summertime...</p>
+                                <p>We wanted the website to look and feel refreshingly modern, yet familiar.</p>
+                                <p>Under the hood, we laid out the website on top of the world's most popular CSS framework,
+                                    Bootstrap. We think this robust, open-source framework will serve as a strong foundation
+                                    to our website.</p>
+                                <p>On top of this, we've implemented custom styling and layouts that students will find familiar
+                                    and aligned with the BCIT branding they're already used to.</p>
                                 <p>
-                                    We used these tools to implement some features...
+                                    The website will:
                                     <ul>
-                                        <li>Feature/Tools 1</li>
-                                        <li>Feature/Tools 2</li>
-                                        <li>Feature/Tools 3</li>
+                                        <li>Utilize Bootstrap, the world's most popular CSS framework for building websites.</li>
+                                        <li>Have custom, fresh branding on top of a robust, open-source, and community-maintained
+                                            framework.
+                                        </li>
+                                        <li>Deliver a sense of familiar, yet refreshing brand identity</li>
                                     </ul>
                                 </p>
-                                <p>We did something awesome that solved 100% of your problems. This is because we're awesome.
-                                    Especially if we're doing this in the middle of the summertime...</p>
-                                <p>
+
                             </p>
-                        </div>
-                        <div class="col-48 inline-block img-container">
-                            <img class="img-responsive" src="http://via.placeholder.com/500x300" alt="">
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-98 rationale-desc">
-                            <p>We did something awesome that solved 100% of your problems. This is because we're awesome. Especially
-                                if we're doing this in the middle of the summertime...We did something awesome that solved
-                                100% of your problems. This is because we're awesome. Especially if we're doing this in the
-                                middle of the summertime</p>
-                        </div>
                         <div class="col-98 img-container">
-                            <img class="img-responsive" src="http://via.placeholder.com/1200x300" alt="">
+                            <figure>
+                                <img class="img-responsive" src="http://via.placeholder.com/1200x300" alt="">
+                                <figcaption><small>Custom branding example</small></figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-98 img-container">
+                            <figure>
+                                <img class="img-responsive" src="http://via.placeholder.com/1200x300" alt="">
+                                <figcaption><small>Another custom branding example</small></figcaption>
+                            </figure>
                         </div>
                     </div>
                     <div class="row nav-arrow-down">
                         <a href="#deliverable-main-4"><i class="fa fa-arrow-circle-down fa-5x" aria-hidden="true"></i></a>
                     </div>
                 </div>
+                <!-- Deliverable 4 -->
                 <div id="deliverable-main-4" class="section pp-scrollable">
                     <div class="row first-row">
                         <span class="green"><i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i></span>
-                        <h2 class="deliverable-text">Deliverable 4: </h2>
+                        <h2 class="deliverable-text">Deliverable 4: <span class="grey">Optimize content for in-class instructional settings.</span></h2>
                     </div>
                     <div class="row">
                         <h3>Rationale</h3>
@@ -311,84 +361,69 @@
                     <div class="row">
                         <div class="col-48 inline-block rationale-desc">
                             <p class="rationale-desc">
-                                <p>We did something awesome that solved 100% of your problems. This is because we're awesome.
-                                    Especially if we're doing this in the middle of the summertime...We did something awesome
-                                    that solved 100% of your problems. This is because we're awesome. Especially if we're
-                                    doing this in the middle of the summertime...</p>
+                                <p>So far, we've talked a lot about mobile/responsive design, but rest assured, we didn't forget about one of the most important places for learning: <strong>the classroom.</strong></p>
+                                <p>Today's classrooms utilize projectors as one of the most common delivery vehicles for content. So we made sure to optimize lecture content for projection for better readability and layout.</p>
+                                <p>We also made sure to optimize content for printing as well.</p>
                                 <p>
-                                    We used these tools to implement some features...
+                                    To ensure a great experience for projection and printing:
                                     <ul>
-                                        <li>Feature/Tools 1</li>
-                                        <li>Feature/Tools 2</li>
-                                        <li>Feature/Tools 3</li>
+                                        <li>You can toggle custom stylesheets for projectors on the fly</li>
+                                        <li>When projecting, we increase the font size and change the layout of some website components to put a spotlight on content first</li>
+                                        <li>When printing lecture content, only the essentials</li>
                                     </ul>
                                 </p>
-                                <p>We did something awesome that solved 100% of your problems. This is because we're awesome.
-                                    Especially if we're doing this in the middle of the summertime...</p>
-                                <p>
                             </p>
                         </div>
                         <div class="col-48 inline-block img-container">
-                            <img class="img-responsive" src="http://via.placeholder.com/500x300" alt="">
+                            <figure>
+                                <img class="img-responsive" src="http://via.placeholder.com/500x300" alt="">
+                                <figcaption><small>Toggle "projection mode" on the fly</small></figcaption>
+                            </figure>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-98 rationale-desc">
-                            <p>We did something awesome that solved 100% of your problems. This is because we're awesome. Especially
-                                if we're doing this in the middle of the summertime...We did something awesome that solved
-                                100% of your problems. This is because we're awesome. Especially if we're doing this in the
-                                middle of the summertime</p>
-                        </div>
                         <div class="col-98 img-container">
-                            <img class="img-responsive" src="http://via.placeholder.com/1200x300" alt="">
+                            <figure>
+                                <img class="img-responsive" src="http://via.placeholder.com/1200x300" alt="">
+                                <figcaption><small>Lecture content optimized for printing.</small></figcaption>
+                            </figure>
                         </div>
                     </div>
                     <div class="row nav-arrow-down">
                         <a href="#deliverable-main-5"><i class="fa fa-arrow-circle-down fa-5x" aria-hidden="true"></i></a>
                     </div>
                 </div>
+                <!-- Deliverable 5 -->
                 <div id="deliverable-main-5" class="section pp-scrollable">
                     <div class="row first-row">
                         <span class="green"><i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i></span>
-                        <h2 class="deliverable-text">Deliverable 5: </h2>
+                        <h2 class="deliverable-text">Deliverable 5: <span class="grey">Reimagine analog/paper content for the digital medium.</span></h2>
                     </div>
                     <div class="row">
                         <h3>Rationale</h3>
                     </div>
                     <div class="row">
-                        <div class="col-48 inline-block rationale-desc">
+                        
+                        <div class="col-98 inline-block rationale-desc">
                             <p class="rationale-desc">
-                                <p>We did something awesome that solved 100% of your problems. This is because we're awesome.
-                                    Especially if we're doing this in the middle of the summertime...We did something awesome
-                                    that solved 100% of your problems. This is because we're awesome. Especially if we're
-                                    doing this in the middle of the summertime...</p>
+                                <p>Today, we're increasingly heading towards a "paperless" society. So we challenged ourselves to reimagine traditionally analog content to be served via a digital medium.</p>
+                                <p>Would you like to see an example? One of the best examples of this is the transforming of a <strong>paper-administered quiz to an online form.</strong></p>
                                 <p>
-                                    We used these tools to implement some features...
+                                    The online quiz will:
                                     <ul>
-                                        <li>Feature/Tools 1</li>
-                                        <li>Feature/Tools 2</li>
-                                        <li>Feature/Tools 3</li>
+                                        <li>Be administered directly from the website.</li>
+                                        <li>Allow efficient delivery and collection of questions and answers</li>
+                                        <li>Be versatile for a myriad of different question/answer types, including paragraph, multiple choice, fill-in-the-blank, etc.</li>
                                     </ul>
                                 </p>
-                                <p>We did something awesome that solved 100% of your problems. This is because we're awesome.
-                                    Especially if we're doing this in the middle of the summertime...</p>
-                                <p>
-                            </p>
                         </div>
-                        <div class="col-48 inline-block img-container">
-                            <img class="img-responsive" src="http://via.placeholder.com/500x300" alt="">
+                        <div class="col-98 inline-block img-container">
+                            <figure>
+                                <img class="img-responsive" src="http://via.placeholder.com/1000x300" alt="">
+                                <figcaption><small>Example online quiz</small></figcaption>
+                            </figure>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-98 rationale-desc">
-                            <p>We did something awesome that solved 100% of your problems. This is because we're awesome. Especially
-                                if we're doing this in the middle of the summertime...We did something awesome that solved
-                                100% of your problems. This is because we're awesome. Especially if we're doing this in the
-                                middle of the summertime</p>
-                        </div>
-                        <div class="col-98 img-container">
-                            <img class="img-responsive" src="http://via.placeholder.com/1200x300" alt="">
-                        </div>
+
                     </div>
                     <div class="row nav-arrow-down">
                         <a href="#link-to-proto"><i class="fa fa-arrow-circle-down fa-5x" aria-hidden="true"></i></a>
@@ -396,7 +431,13 @@
                 </div>
                 <div id="link-to-proto" class="section pp-scrollable">
                     <div class="row first-row">
-                        <h2>Link to website here...</h2>
+                        <div id="website-preview2" class="col-88">
+                        <h2>See it for yourself! Click below :)</h2>
+                            <a href="linktoproto"><img class="img-responsive" src="http://via.placeholder.com/1000x600" alt="website preview"></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        
                     </div>
 
                 </div>
