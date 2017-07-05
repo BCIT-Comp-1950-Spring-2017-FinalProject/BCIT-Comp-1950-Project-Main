@@ -91,6 +91,14 @@ header {
  text-align: center; 
 }
 
+#website-preview2-img {
+    opacity: 0.5;
+}
+
+#website-preview2-img:hover {
+    opacity: 1.0;
+}
+
 li {
     text-align: -webkit-match-parent;
 }
